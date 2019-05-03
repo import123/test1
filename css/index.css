@@ -1,0 +1,31 @@
+
+/*商城首页版心容器*/
+.shop_container{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    height:200px;
+    background: yellowgreen;
+}
+.shop_search{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+      
+}
+.shop_search .shop_search_box{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    height: 40px;
+    background:red;  
+}
+.shop_search .shop_search_box{}
+.shop_search .shop_search_box a{}
+.shop_search .shop_search_box .icon_logo{}
+.shop_search .shop_search_box .login{}
+.shop_search .shop_search_box form input{}
+.shop_search .shop_search_box form .icon_search{}

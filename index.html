@@ -4,34 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>首页</title>
-    <style>
-        body{
-            margin: 0;
-            top: 0;
-        }
-        .container{
-            width: 100%;
-            height: 1200px;
-           background: red;
-            margin:0 auto;
-
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
-    <!--经典网络布局-->
-    <div class="container">
-        内容内容内容内容内容内容内容内容内容内容
-        内容内容内容内容内容内容内容内容内容内容
-        内容内容内容内容内容内容内容内容内容内容
-        内容内容内容内容内容内容内容内容内容内容
-        内容内容内容内容内容内容内容内容内容内容
-        内容内容内容内容内容内容内容内容内容内容
-        内容内容内容内容内容内容内容内容内容内容
-        内容内容内容内容内容内容内容内容内容内容
-        内容内容内容内容内容内容内容内容内容内容
-
+    <!--版心容器 在320-640宽度自适应-->
+    <div class="shop_container">
+        <!--顶部搜索-->
+        <header class="shop_search">
+            <div class="shop_search_box">
+                <a href="#" class="icon_logo"></a>
+                <form action="">
+                    <span class="icon_search"></span>
+                    <input type="search" placeholder="galaxy">
+                </form>
+                <a href="#" class="login">登录</a>
+            </div>
+        </header>
+        <!--轮播图-->
+        <div class="shop_banner"></div>
+        <!--导航栏-->
+        <div class="shop_nav"></div>
+        <!--产品区块-->
+        <div class="shop_product"></div>
     </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/common.js"></script>
 </body>
 </html>
